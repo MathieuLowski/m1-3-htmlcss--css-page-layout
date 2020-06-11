@@ -1,0 +1,14 @@
+body{
+  margin: 0px;  
+  }
+
+.container{
+
+      display: flex;
+      flex-flow: row wrap;
+      
+  }
+  .pic{
+      margin: 1px;
+      width: calc(100% / 35px); 
+  }

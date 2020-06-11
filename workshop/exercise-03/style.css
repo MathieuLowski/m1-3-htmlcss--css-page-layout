@@ -1,0 +1,44 @@
+body {
+    margin:0px;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+    .content{
+        display: flex;
+        justify-content: center;
+        
+}
+
+h1{
+    margin: 45vh;
+    color: white;
+    text-shadow: 1px 1px #ffffff;
+    }
+
+
+
+
+
+    .navbar{
+        background-color:#313633 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .navbar > a{
+        margin: 0px 50px 0px 50px;
+        }
+    a:hover{
+            transition: 0.2s;
+            opacity: .2;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            display: inline;
+        }

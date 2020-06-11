@@ -1,7 +1,45 @@
 body {
   margin: 0;
-}
+  }
 
 .mobile-nav-button img {
   width: 18px;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  
+ 
+}
+li{
+  margin: 0px 25px ;
+  
+}
+
+
+.desktop-nav{
+  display: flex;
+  
+}
+
+@media (min-width: 800px){
+  .mobile-nav-button{
+    display: none;
+  }
+}
+
+@media (max-width:799px){
+  .desktop-nav{
+    display: none;
+  }
+}
+

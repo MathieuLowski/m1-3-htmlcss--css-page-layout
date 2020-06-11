@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+
+html{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar, footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    margin: 0px;
+}

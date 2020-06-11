@@ -4,10 +4,49 @@ body {
 
 .nav {
   background-color: #383737;
-}
+  color: white;
+  font-size: 20px;
+  
+  }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  position: relative;
+  padding: 16px;
 }
+
+.nav-dropdown:hover > .dropdownMenu{
+  display: block;
+  position: absolute;
+}
+
+
+.dropdownMenu{
+  display: none  ;
+  position: absolute;
+  background-color: rgb(48, 113, 235);
+  min-width:170px;
+  }
+
+
+
+li{
+  
+  list-style-type: none;
+  padding: 12px;
+  
+}
+
+.dropdownMenu p{
+  color: #fff;
+  padding: 8px 8px;
+  
+}
+
+.dropdownMenu > p:hover{
+  background-color: rgba(48, 113, 235, 0.87);
+}
+
+
